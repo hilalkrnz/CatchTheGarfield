@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="@dimen/space_300"
+        android:layout_height="@dimen/space_500"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/space_30"
+        android:layout_marginEnd="@dimen/space_10"
+        android:layout_marginBottom="@dimen/space_30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/garfield" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView5"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/garfield" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView6"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView7"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView9"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/garfield" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView10"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView11"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView13"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/garfield" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView14"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView15"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView17"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="0"
+            app:layout_row="4"
+            app:srcCompat="@drawable/garfield" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView18"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="1"
+            app:layout_row="4"
+            app:srcCompat="@drawable/garfield" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageView19"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:onClick="increasScore"
+            app:layout_column="2"
+            app:layout_row="4"
+            app:srcCompat="@drawable/garfield" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/peralta"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_24"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/timer" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/peralta"
+        android:textSize="@dimen/size_24"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        tools:text="@string/score" />
+</androidx.constraintlayout.widget.ConstraintLayout>

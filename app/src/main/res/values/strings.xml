@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CatchTheGarfield</string>
+    <string name="garfield">garfield</string>
+    <string name="timer">Time: 15</string>
+    <string name="score">Score: 0</string>
+
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ready">Are you ready ?</string>
+    <string name="restart">Are you sure to restart game ?</string>
+
+
+    <string name="final_timer_text">Time Off</string>
+    <string name="game_over">Game Over</string>
+    <string name="time">Time: </string>
+</resources>
